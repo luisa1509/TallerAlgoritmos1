@@ -14,10 +14,12 @@ class User{
 
     }
 
-    uLogin(){
-
-    }
-
+    uLogin(userName){
+    if(userName.equals("pipegarcial159")) {
+                return true;
+            }
+            return false;
+        }
     Search(){
 
     }
