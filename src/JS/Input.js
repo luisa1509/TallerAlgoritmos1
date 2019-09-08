@@ -2,7 +2,7 @@ class Input {
    focus= new Boolean(false);
    
     
-    constructor(posX, posY, focus, text, parent){
+    constructor(posX, posY, focus, text){
         this.focus= focus;
         this.text= text;
         this.posX= posX;
