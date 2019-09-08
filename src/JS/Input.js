@@ -10,7 +10,7 @@ class Input {
     }
 
     paint(){
-        if(focus==false){
+        if(focus){
             stroke(255,0,0);
         }else{
             stroke(0);
