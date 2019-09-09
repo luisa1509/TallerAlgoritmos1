@@ -17,4 +17,16 @@ class ScreenRegister{
     paint(){
         image(b, 0,0, width, height);
     }
+
+    validateRegister(){
+        
+    }
+
+    toLoginBack(){
+        if(mouseX >= 264 && mouseX <= 484 && mouseY >= 1070 && mouseY <= 1152 ){
+            screen = 0;
+        }
+    }
+
+    
 }

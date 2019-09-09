@@ -1,6 +1,5 @@
 class ResumeScreen{
     constructor(){
-        this.date= new Date();
         this.dd =  day();
         this.mm =  month();
         this.yyyy =  year();
@@ -11,6 +10,7 @@ class ResumeScreen{
 
 
     hoyFecha(){
+
         text(""+ this.dd + "/" + this.mm + "/"+ this.yyyy,50,50,50,50);
         
     }
@@ -19,8 +19,5 @@ class ResumeScreen{
         image(k, 0,0, width, height);
     }
 
-    get Date(){
-        return this.date;
-    }
 
 }
